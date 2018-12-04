@@ -16,19 +16,12 @@
 .intermediate-content .cmsmasters_text{margin-bottom: 20px;}
 .intermediate-content .cmsmasters_text p{margin: 0;padding: 0 0 20px;}
 
-.intermediate-content .cmsmasters_gallery_img .example-image-link{display: inline-block;width: 31%;margin: 0 0 10px 10px;vertical-align: top;max-height: 160px;
-	overflow: hidden;}
-.intermediate-content .cmsmasters_gallery_img .example-image-link img{max-height: 160px;}
-
+.intermediate-content .cmsmasters_gallery_img .grid-item{width: 31%;margin: 0 0 10px 10px;}
+.intermediate-content .cmsmasters_gallery_img .grid-item a img {width: 100%;}
 .page-social a .fa-instagram{background-color: #8a3ab9;}
 
 
-
-@media screen and (min-width: 768px) and (max-width: 991px){
-	.intermediate-content .cmsmasters_gallery_img .example-image-link{width: 48%;}
-}
-
 @media screen and (max-width: 767px){
-	.intermediate-content .cmsmasters_gallery_img .example-image-link{width: 100%;margin: 0 0 10px 0;max-height: inherit;}
-	.intermediate-content .cmsmasters_gallery_img .example-image-link img{max-height: inherit;}
+	.intermediate-content .cmsmasters_gallery_img .grid-item{width: 100%;margin: 0 0 10px 0;}
+	
 }
